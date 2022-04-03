@@ -1,4 +1,7 @@
 .footer,.footer a{
-    color:white;
-    background-color: red;
+    color:white !important;
+    background-color: brown;
+}
+.footer a:hover{
+opacity: .6;
 }

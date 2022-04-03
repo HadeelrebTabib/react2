@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './../../logoo.svg';
+import img from './../../Images/img.png'
 import { Link } from 'react-router-dom';
 import style from './Navbar.module.css';
 export default class Navbar extends Component {
@@ -7,7 +8,7 @@ export default class Navbar extends Component {
   return (
 <nav className={`navbar navbar-expand-lg navbar-light bg-light ${style.navbg}`}>
   <div className="container-fluid">
-    <a className="navbar-brand logo" href="#">CEF <img src={logo}/></a>
+    <a className="navbar-brand logo" href="https://www.cef.co.uk/"target="_blank"><img src={img}/> CEF</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>

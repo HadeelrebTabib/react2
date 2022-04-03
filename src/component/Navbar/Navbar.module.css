@@ -2,3 +2,7 @@
 .navbg{
     background-color: blue;
 }
+
+.navbg img{
+    width: 100px;
+}
